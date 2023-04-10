@@ -22,8 +22,8 @@ def player():
 
 #ball
 ball_rect = pygame.Rect(0, 0, 60, 60)
-ball_y_change = 7
-ball_x_change = 7
+ball_y_change = 5
+ball_x_change = 5
 def ball():
     pygame.draw.rect(window, (255, 0, 0), ball_rect)
 
